@@ -11,7 +11,7 @@ body{
 .black-boxes{
     width: auto;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     font-style: italic;
     background-color: black;
@@ -23,14 +23,17 @@ body{
 
 #box-1{
     text-align: center;
-    left: 1rem;
-    top: 0.5rem;
-    padding:15px 10px 30px 10px;
+    left: 2rem;
+    top: 1rem;
+    padding:20px 10px 50px 10px;
 }
 
 #box-2{
-    left: -4rem;
-    padding: 20px 50px 0px 100px;
+    text-align: center;
+    width: 35%;
+    top: 1rem;
+    left: -5rem;
+    padding: 1rem 0rem 0rem 5rem;
     border-radius: 55px;
 }
 
@@ -43,15 +46,15 @@ body{
 }
 
 #circle-div{
-    height: 400px;
-    width: 400px;
+    height: 450px;
+    width: 500px;
     background-color: #43a89f;
     text-align: center;
     border: 10px solid gray;
     border-radius: 50%;
     display: inline-block;
     position: relative;
-    bottom: 8rem;
+    bottom: 9rem;
     left: 6rem;
 }
 
@@ -72,15 +75,16 @@ body{
 }
 
 #form-div{
-    border: 7px dashed red;
+    width: 30%;
+    border: 10px dashed red;
     margin: 10px;
     display: inline-block;
     background-color:white;
     color: red;
     text-align: center;
     position: relative;
-    left: 20rem;
-    top: 5rem;
+    left: 18rem;
+    top: 4rem;
 }
 
 .user-inputs{

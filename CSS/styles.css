@@ -1,0 +1,82 @@
+/* Background Image for entire page. */
+body{
+    margin: 0 auto;
+    background-image: url("../Assets/Images/Subtle-Clouds-Texture-Pattern.webp");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    border: 10px groove greenyellow;
+}
+.black-boxes{
+    width: auto;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: black;
+    border: 6px solid red;
+    border-radius: 35px;
+    display: inline-block;
+    position: relative;
+}
+#box-1{
+    text-align: center;
+    left: 1rem;
+    top: 0.5rem;
+    padding:15px 10px 40px 10px;
+}
+#box-2{
+    left: -5rem;
+    padding: 20px 45px 0px 120px;
+    border-radius: 55px;
+}
+#box-3{
+    /* margin: 0 0; */
+    top: 1rem;
+    float: right;
+    right: 1rem;
+    padding:0px 60px 0px 60px;
+}
+#circle-div{
+    height: 400px;
+    width: 400px;
+    background-color: #43a89f;
+    text-align: center;
+    border: 10px solid gray;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    bottom: 8rem;
+    left: 6rem;
+}
+#circle-div div{
+    width:inherit;
+    height: auto;
+    position: relative;
+    top: 5rem;
+    font-style: italic;
+    text-decoration: underline;
+}
+#circle-div div p{
+    margin: 15px;
+    padding: 10px;
+    font-size: 21px;
+    font-weight: bolder;
+}
+#form-div{
+    border: 7px dashed red;
+    margin: 10px;
+    display: inline-block;
+    background-color:white;
+    color: red;
+    text-align: center;
+    position: relative;
+    left: 20rem;
+    top: 5rem;
+}
+.user-inputs{
+margin: 1rem;
+}
+.user-inputs input{
+    text-align: center;
+}
